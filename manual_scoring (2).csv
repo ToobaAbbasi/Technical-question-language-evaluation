@@ -1,0 +1,390 @@
+question_id,topic,language_form,question,model_response,correctness_0_2,meaning_preserved_0_2,uncertainty_handled_0_2,error_notes
+1,Signal processing,English,What does a low-pass filter do to a signal?,"A **low-pass filter** is a type of filter that allows signals with **lower frequencies** to pass through while **attenuating or blocking higher frequency components**.
+
+### What it does to a signal:
+
+1. **Passes low-frequency signals**:
+   - It allows signals with frequencies below a certain cutoff frequency (often called the ""corner frequency"" or ""transition frequency"") to pass through without significant attenuation.
+
+2. **Attenuates high-frequency signals**:
+   - It reduces the amplitude of signals with frequencies above the cutoff frequency. This is done by using a **passive** or **active** filter circuit (e.g., RC circuits, op-amps, etc.).
+
+3. **Acts as a frequency selector**:
+   - It can be used to isolate a specific frequency",2,2,2,
+1,Signal processing,Roman Urdu,Low-pass filter signal ke sath kya karta hai?,"Low-pass filter (LPF) is a type of filter that allows signals with a frequency lower than a specified cutoff frequency to pass through while attenuating or blocking signals with higher frequencies. When used in conjunction with a **signal**, a low-pass filter **filters the signal** to remove high-frequency components that may be unwanted or cause distortion.
+
+### What a Low-Pass Filter Does:
+- **Passes** signals with frequencies **below the cutoff frequency**.
+- **Attenuates** or **blocks** signals with frequencies **above the cutoff frequency**.
+
+### Example:
+Imagine you have a signal that contains both a low-frequency tone (like a 100 Hz sound) and a high-frequency noise (like a 10,000 Hz sound). A low-pass filter will",2,2,2,
+1,Signal processing,Urdu script,لو پاس فلٹر سگنل کے ساتھ کیا کرتا ہے؟,لو پاس فلٹر (Low Pass Filter) سگنل کے ساتھ **کچھ کام کرتا ہے**۔ اس کا مطلب یہ ہے کہ **لو پاس فلٹر سگنل کے کچھ اہم اور معمولی سے کچھ کام کرتا ہے**۔ اس کے اصل کام کے بارے میں اس کے اصل کام کے بارے میں اس کے اصل کام کے بارے میں اس کے اصل کام کے بارے میں اس کے اصل,2,2,2,
+1,Signal processing,Code-switched,Signal processing mein low-pass filter kya karta hai?,"Signal processing mein **low-pass filter (LPF)**, **nizam-i-ghayr-ghayr** (nizam-i-ghayr-ghayr) ya **low-pass filter** (LPF) karta hai, **signal ko high-frequency components (high-frequency components) ko remove karta hai**. 
+
+### 1. **Kya karta hai?**
+- **Low-pass filter** **high-frequency signals** (signals with high frequency components) **ko remove karta hai**.
+- **High-frequency signals** are those that have **rapid changes** in the signal, like noise or rapid oscillations.
+- **Low-pass filter** allows **low-frequency signals** (like the fundamental frequency of a sound or a baseband",2,2,2,
+2,Machine learning,English,What is the difference between classification and regression?,"Classification and regression are two fundamental types of **supervised learning** in machine learning, and they differ in the **type of output** they predict.
+
+---
+
+### **1. Classification**
+- **Definition**: Classification is a type of supervised learning where the **model predicts a discrete class label** for a given input.
+- **Output**: The model outputs a **class label** (e.g., ""spam"" or ""not spam"", ""cat"" or ""dog"", ""positive"" or ""negative"").
+- **Examples**:
+  - Spam detection (classification)
+  - Image classification (e.g., ""cat"" vs. ""dog"")
+  - Sentiment analysis (positive/negative)
+- **Common Algorithms**:
+  - Logistic Regression
+  - Decision Trees
+  - Support Vector Machines",2,2,2,
+2,Machine learning,Roman Urdu,Classification aur regression mein kya farq hai?,"Classification and regression are two fundamental types of **supervised learning** in machine learning, and they differ in what they are trying to predict or classify.
+
+---
+
+### 🔹 **Classification**:
+- **What it does**: Predicts **categorical** (discrete) outcomes.
+- **Examples**: 
+  - Spam detection (spam vs. not spam)
+  - Disease diagnosis (yes/no, malignant/benign)
+  - Sentiment analysis (positive/negative)
+- **Output**: A class label (e.g., ""cat"", ""dog"", ""car"", ""no"")
+- **Common algorithms**: Logistic Regression, Decision Trees, Support Vector Machines (SVM), Naive Bayes, Random Forests, Neural Networks.
+
+---
+
+### 🔹 **Regression**:
+- **What it",2,2,2,
+2,Machine learning,Urdu script,کلاسیفیکیشن اور ریگریشن میں کیا فرق ہے؟,"کلاسیفیکیشن (Classification) اور ریگریشن (Regression) یہ دو مختلف میں کیسز ہیں جن کی تفاصیلی تفصیل میں بحث کی جا رہی ہے۔ یہ دونوں ایک ایک دوسرے کے ساتھ مل کر ہمارے دنیا کے چیز کے ساتھ مل کر کام کرتے ہیں، لیکن ان کے مفہوم اور استعمال کے بارے میں فرق ہے۔
+
+---",2,2,2,
+2,Machine learning,Code-switched,Machine learning mein classification aur regression ka difference kya hai?,"Machine learning (ML) is a broad field, and classification and regression are two of the most commonly used types of supervised learning tasks. Here's a clear distinction between **classification** and **regression** in the context of machine learning:
+
+---
+
+### 🔹 **Classification**
+- **Definition**: Classification is a type of supervised learning task where the goal is to predict a **discrete class label** or **category** for a given input.
+- **Output**: The model outputs a **class label** (e.g., ""spam"" or ""not spam"", ""cat"" or ""dog"", ""positive"" or ""negative"").
+- **Examples**:
+  - Spam detection
+  - Image classification (e.g., ""cat"", ""dog"")
+  - Sentiment analysis (e.g.,",2,2,2,
+3,Wireless communication,English,Why does a wireless signal become weaker as distance increases?,"A wireless signal becomes weaker as distance increases due to the **inverse square law**, which describes how the intensity of a signal decreases with distance from the source. Here's a breakdown of why this happens:
+
+---
+
+### 1. **Signal Propagation and Energy Dissipation**
+- Wireless signals (like Wi-Fi, Bluetooth, or cellular signals) are electromagnetic waves that travel through space.
+- As they propagate, they lose energy over distance due to:
+  - **Atmospheric absorption** (e.g., water vapor, oxygen, etc.)
+  - **Reflection, refraction, and diffraction** (which can scatter the signal)
+  - **Physical obstruction** (e.g., walls, buildings, or other objects)
+  - **Atmospheric interference** (e.g., ionospheric",2,2,2,
+3,Wireless communication,Roman Urdu,Distance barhne par wireless signal weak kyun hota hai?,"Yes, it is possible for a **distance bar** (a type of wireless charging pad or device that charges your phone via wireless induction) to work with a **weak wireless signal**, but it depends on several factors:
+
+---
+
+### 🔧 **What is a Distance Bar?**
+A **distance bar** is a device that uses **inductive charging** (wireless charging) to charge your phone. It works by placing your phone on the charging pad, and the pad generates a magnetic field that induces a current in the phone's charging coil.
+
+---
+
+### 🌐 **Why Does a Weak Signal Affect Distance Bars?**
+
+1. **Inductive Charging Works via Magnetic Field**:
+   - The distance bar uses a **magnetic field** to transfer energy to your phone.
+   -",0,0,2,Misinterpreted the wireless signal question as a wireless charging device
+3,Wireless communication,Urdu script,فاصلہ بڑھنے پر وائرلیس سگنل کمزور کیوں ہوتا ہے؟,"فاصلہ بڑھنے پر وائرلیس سگنل کمزور ہوتا ہے، اس کی وجہ یہ ہے کہ وائرلیس سگنل کی **مکمل مدت** (range) ایک **فاصلے کے مطابق** ہوتی ہے۔ یعنی، وائرلیس سگنل کی مکمل مدت کے باوجود، **کچھ فاصلے پر** اس کی کمی ہوتی ہے۔ اس کی وجہ یہ ہے:
+
+---
+
+### 1. **سگ",1,2,2,Missed physical explanation of path loss
+3,Wireless communication,Code-switched,Wireless communication mein distance increase ho to signal strength kyun decrease hoti hai?,"In wireless communication, when the **distance between the transmitter and receiver increases**, the **signal strength decreases** for several reasons. This is a fundamental principle of **electromagnetic wave propagation**. Here's a breakdown of why this happens:
+
+---
+
+### 1. **Signal Attenuation (Loss of Signal Strength)**
+As the distance between the transmitter and receiver increases, the **signal strength decreases** due to **attenuation**. This is because:
+
+- **Electromagnetic waves** (like radio waves) travel through space and lose energy as they propagate.
+- The **intensity** of the signal decreases with distance, following the **inverse square law**.
+
+#### Inverse Square Law:
+$$
+\text{Signal Strength} \propto \frac{1}{\text",2,2,2,
+4,Radar,English,How can radar detect the motion of an object?,"Radar (Radio Detection and Ranging) detects the motion of an object by measuring the **time it takes for a radio wave to travel to the object and return**. Here's a step-by-step explanation of how this works:
+
+---
+
+### **1. Principles of Radar Operation**
+- **Radio waves** are emitted by the radar transmitter.
+- These waves travel through the air at the speed of light (approximately 300,000 km/s).
+- When the waves hit an object, they **reflect** back toward the radar receiver.
+- The **time it takes for the reflected wave to return** is measured.
+
+---
+
+### **2. How Motion is Detected**
+- **If the object is stationary**, the reflected wave returns at the same time as the emitted wave.
+-",1,2,2,Did not explicitly highlight Doppler effect
+4,Radar,Roman Urdu,Radar kisi object ki movement kaise detect karta hai?,"Radar (Radio Detection and Ranging) kisi object (kisi वस्तु या व्यक्ति) की गति को डेटेक्ट करने के लिए एक विशेष तरीका है, जिसे **""Radar Velocity Detection""** या **""Radar Motion Detection""** कहा जाता है। यह एक रेडियो तरंग के आवर्तन के आधार पर गति की तकन",1,2,2,Did not explicitly highlight Doppler effect
+4,Radar,Urdu script,ریڈار کسی چیز کی حرکت کیسے معلوم کرتا ہے؟,"ریڈار کسی چیز کی حرکت کیسے معلوم کرتا ہے؟
+
+ریڈار (Radar) کسی چیز کی حرکت کیسے معلوم کرتا ہے، اس کا کام **مکان کی چیز کی چوٹی کی چوٹی کی چوٹی کی چوٹی کی چوٹی کی چوٹی کی چوٹی کی چوٹی کی چوٹی کی چوٹی کی چوٹی کی چ",1,2,2,Did not explicitly highlight Doppler effect
+4,Radar,Code-switched,Radar kisi moving object ki motion detect kaise karta hai?,"Radar (Radar, Radio Detection and Ranging) kisi moving object ki motion detect karte hai, जो अपने आप में एक रेडियो तरंग के आवर्तन के आधार पर काम करता है। इसके आधार पर, आपके प्रश्न के उत्तर के लिए निम्न विवरण दिए गए हैं:
+
+---
+
+### 🌟 **Radar कैसे एक moving object",1,2,2,Did not explicitly highlight Doppler effect
+5,Data science,English,Why should a dataset be split into training and test sets?,"Splitting a dataset into **training** and **test sets** is a fundamental practice in **machine learning** and **data science**. Here's why it's important:
+
+---
+
+### 1. **Avoid Overfitting**
+- **Training set**: Used to train the model.
+- **Test set**: Used to evaluate the model's performance on **unseen data**.
+- By splitting the data, you prevent the model from **learning from the test data** during training, which would lead to **overfitting** (the model performs well on training data but poorly on new, unseen data).
+
+---
+
+### 2. **Evaluate Model Performance**
+- The **test set** provides an unbiased estimate of how well the model will perform on new, real-world data.
+- This helps in",2,2,2,
+5,Data science,Roman Urdu,Dataset ko training aur test sets mein kyun divide karte hain?,"Training and test sets are divided in a dataset to **improve the generalization** of a machine learning model. Here's why:
+
+---
+
+### 🔍 **1. Avoid Overfitting**
+- **Overfitting** happens when a model learns the training data too well, including noise and outliers, and fails to generalize to new, unseen data.
+- By separating the training set from the test set, we ensure the model learns the general pattern from the training data and not just memorizes it.
+
+---
+
+### 🧠 **2. Evaluate Model Performance**
+- The **test set** is used to evaluate the model's performance **after training**.
+- This allows us to:
+  - Measure how well the model performs on new, unseen data.
+  - Compare different models or versions of",2,2,2,
+5,Data science,Urdu script,ڈیٹاسیٹ کو ٹریننگ اور ٹیسٹ سیٹس میں کیوں تقسیم کرتے ہیں؟,"ڈیٹاسیٹ کو **ٹریننگ سیٹ (Training Set)** اور **ٹیسٹ سیٹ (Test Set)** میں تقسیم کرنا **مهمیت کے ساتھ** ہوتا ہے، کیونکہ:
+
+---
+
+### 🔹 **1. ڈیٹاسیٹ کو تقسیم کرنا چاہتے ہیں کیوں؟**
+
+### ✅ **1. 1. ٹریننگ سیٹ کے ذریعے ہم نے ہمیشہ ہمیشہ ہماری مصنوعی ا",2,2,2,
+5,Data science,Code-switched,Machine learning dataset ko training aur testing sets mein split kyun karna chahiye?,"Splitting a machine learning dataset into **training** and **testing sets** is a crucial step in the model development process. Here's why it's important:
+
+---
+
+### 🔍 **1. Avoid Overfitting**
+- **Overfitting** happens when a model learns the training data too well, including noise and outliers, and fails to generalize to new, unseen data.
+- By splitting the data into **training** and **testing** sets, you ensure that the model is trained on one subset (training set) and evaluated on another (testing set), which helps prevent overfitting.
+
+---
+
+### 🧠 **2. Evaluate Model Performance**
+- The **testing set** is used to evaluate the model's performance **after training**.
+- This allows you to:
+  - Measure",2,2,2,
+6,Electronics,English,What is the purpose of a resistor in a simple circuit?,"A resistor in a simple circuit serves several important purposes:
+
+1. **Voltage Regulation**: A resistor can limit the amount of current flowing through a circuit, which helps to regulate the voltage across components. This is especially useful in circuits where components may be sensitive to voltage fluctuations.
+
+2. **Current Limiting**: Resistors are used to control the amount of current that flows through a circuit. This is important for protecting components from damage due to excessive current.
+
+3. **Signal Shaping**: In electronic circuits, resistors can be used to shape or filter signals, such as in filters or in the design of op-amp circuits.
+
+4. **Power Dissipation**: Resistors convert electrical energy into heat, which can be useful in certain applications where heat needs to be dissipated, such as in power",2,2,2,
+6,Electronics,Roman Urdu,Simple circuit mein resistor ka kya kaam hota hai?,"In a simple circuit, a **resistor** plays a crucial role in **controlling the flow of electric current**. Here's a breakdown of what a resistor does in a circuit:
+
+---
+
+### 🔧 **What a Resistor Does:**
+
+1. **Limits Current Flow:**
+   - A resistor **resists the flow of electric current**. It opposes the movement of electrons in a circuit.
+   - This is done by **increasing the resistance** in the circuit, which reduces the current flowing through it.
+
+2. **Voltage Division:**
+   - In a series circuit, a resistor can **divide the voltage** across different components.
+   - For example, if you have two resistors in series, the voltage across each resistor is proportional to its resistance.
+
+3. **",2,2,2,
+6,Electronics,Urdu script,سادہ سرکٹ میں ریزسٹر کا کیا کام ہوتا ہے؟,سادہ سرکٹ میں **ریزسٹر** (Resistance) کا کام **تیار کرنا** ہوتا ہے۔ اس کا کام ہے کہ **کچرہ کو چھوڑ کر چھوڑے ہوئے چیلی کو چھوڑ کر چھوڑے ہوئے چیلی کو چھوڑ کر چھوڑے ہوئے چیلی کو چھوڑ کر چھوڑے ہوئے چیلی کو,2,2,2,
+6,Electronics,Code-switched,"Circuit mein resistor ka role kya hai, aur current par iska kya effect hota hai?","In an electrical circuit, a **resistor** plays a crucial role in **controlling the flow of electric current**. Here's a detailed explanation of its role and effect on current:
+
+---
+
+### 🔧 **Role of a Resistor in a Circuit**
+
+1. **Controls Current Flow**:
+   - A resistor **resists the flow of electric current**. It limits the amount of current that can pass through a circuit.
+   - This is based on **Ohm's Law**:  
+     $$
+     V = I \times R
+     $$
+     where $ V $ is voltage, $ I $ is current, and $ R $ is resistance.
+
+2. **Voltage Division**:
+   - Resistors can be used to **divide the voltage** in a circuit. For",2,2,2,
+7,AI evaluation,English,Why can high accuracy be misleading when classes are imbalanced?,"High accuracy can be misleading when classes are imbalanced because **accuracy** measures the proportion of correct predictions out of all predictions, but it doesn't account for the **distribution of the classes** in the dataset. Here's why this can be misleading:
+
+---
+
+### 1. **Imbalanced Class Distribution**
+- In imbalanced datasets, one class (often the majority class) is much more frequent than the other (the minority class).
+- **Accuracy** can be high even if the model is performing poorly on the minority class.
+
+**Example:**
+- 90% of the data is from class A, and 10% is from class B.
+- A model that always predicts class A will have 90% accuracy, but it's clearly not performing well on class B.",2,2,2,
+7,AI evaluation,Roman Urdu,Imbalanced classes mein high accuracy misleading kyun ho sakti hai?,"You're asking a very important question: **""Why does high accuracy in imbalanced datasets lead to misleading results?""**
+
+This is a common issue in machine learning, especially when dealing with **imbalanced classes** (e.g., a dataset where one class is much more frequent than the other). Let's break it down.
+
+---
+
+### 🔍 What is Imbalanced Class?
+
+In machine learning, **imbalanced classes** refer to datasets where the distribution of the target variable is uneven. For example:
+
+- 90% of the data belongs to class A, and only 10% to class B.
+- This can happen in classification tasks like fraud detection, medical diagnosis, or image classification.
+
+---
+
+### 🧠 Why High Accuracy is Not Always Good
+
+Even if a model achieves **",2,2,2,
+7,AI evaluation,Urdu script,غیر متوازن کلاسز میں زیادہ ایکیوریسی گمراہ کن کیوں ہو سکتی ہے؟,غیر متوازن کلاسز (Imbalanced Classes) میں **زیادہ ایکیوریسی گمراہ کن کیوں ہو سکتی ہے؟** اس سوال کے جواب میں، ایکیوریسی گمراہ کن (Class-imbalance) کی تعریف اور اس کی مزید تفصیل کے ساتھ، اور اس کی مزید تفصیل کے ساتھ، اس کی مزید تفصیل کے ساتھ، اس کی مزید تفصیل کے سات,2,2,2,
+7,AI evaluation,Code-switched,Imbalanced dataset mein high accuracy model ki performance ko misleading kyun bana sakti hai?,"In an **imbalanced dataset**, a model that achieves **high accuracy** can still perform poorly in **real-world scenarios**. This is because **accuracy** is not a reliable metric for imbalanced datasets. Here's why:
+
+---
+
+### 🔍 **1. Accuracy is not a good metric for imbalanced datasets**
+
+- **Accuracy** measures the **proportion of correct predictions** out of all predictions.
+- In an imbalanced dataset, **the majority class dominates** the data, so even if the model predicts the majority class most of the time, it may **misclassify the minority class** heavily.
+
+#### Example:
+- 90% of the data is from class A, 10% from class B.
+- A model that always predicts class A will have **90",2,2,2,
+8,Wireless sensing,English,What is multipath propagation in wireless communication?,"**Multipath propagation** is a phenomenon in wireless communication where signals travel through multiple paths to reach the receiver. This occurs due to the reflection, refraction, diffraction, and scattering of electromagnetic waves as they pass through the atmosphere or other media.
+
+---
+
+### **Key Concepts of Multipath Propagation:**
+
+1. **Multiple Paths:**
+   - The signal reaches the receiver via **multiple paths** due to reflections, refractions, or diffractions from objects like buildings, hills, or the ground.
+
+2. **Signal Delay:**
+   - Each path introduces a **delay** in the signal's arrival time. This causes **interference** between the different paths.
+
+3. **Signal Distortion:**
+   - The different paths may carry **different phase** and **am",2,2,2,
+8,Wireless sensing,Roman Urdu,Wireless communication mein multipath propagation kya hoti hai?,**Multipath propagation** (अपवाद अपवाद या अपवाद अपवाद) एक विशेष तरह से विद्युत विद्युत और विद्युत विद्युत तरंगों के विनिमय के दौरान आ जाने वाले एक तरंग के दो या अधिक अलग रूपों के आवर्त,1,2,2,Missed multi-path reflections explanation
+8,Wireless sensing,Urdu script,وائرلیس کمیونیکیشن میں ملٹی پاتھ پروپیگیشن کیا ہے؟,"**میلٹی پاتھ پروپیگیشن** (Multichannel Propaganda) یا **میلٹی پاتھ میڈیا میں ملٹی پاتھ پروپیگیشن** کے معنی ہیں۔ اس کے مفہوم کے لیے اس کو **میلٹی پاتھ پروپیگیشن** کہا جاتا ہے۔
+
+---
+
+### 🔹 **میلٹی پاتھ پروپیگیشن کی تعریف:**
+
+**میلٹی پاتھ پروپیگیشن**",1,2,2,Missed multi-path reflections explanation
+8,Wireless sensing,Code-switched,Wireless channel mein multipath propagation ka kya matlab hai?,"**Multipath propagation** (अपवाद अपवाद) एक विशेष तरह से विद्युत-प्रसारण या विद्युत चैनल में आवंटित एक अपवाद है। यह एक विशेष रूप से विद्युत चैनल में आवंटित एक अपवाद है।
+
+### अर्थ:
+**Multipath propagation** एक",1,2,2,Missed multi-path reflections explanation
+9,Embedded systems,English,What is the difference between a microcontroller and a microprocessor?,"A **microcontroller** and a **microprocessor** are both types of **microprocessors**, but they serve different purposes and are designed for different applications.
+
+---
+
+### **Microprocessor**
+
+- **Definition**: A **microprocessor** is a **single integrated circuit (IC)** that contains the **control unit**, **arithmetic logic unit (ALU)**, and **memory unit** of a computer's central processing unit (CPU).
+- **Function**: It performs **arithmetic operations**, **logic operations**, and **control of program execution**.
+- **Typical Use**: Found in **personal computers (PCs)**, **servers**, and **mainframes**.
+- **Examples**: Intel x86, AMD x86, ARM (in some devices), and others.
+- **",2,2,2,
+9,Embedded systems,Roman Urdu,Microcontroller aur microprocessor mein kya farq hai?,"Microcontroller and microprocessor are both types of **microcomputers**, but they have **key differences** in their design, purpose, and application. Here's a clear comparison:
+
+---
+
+### ✅ **Microprocessor**
+- **Definition**: A **single integrated circuit (IC)** that contains the **control unit**, **arithmetic logic unit (ALU)**, and **memory**.
+- **Function**: It performs **computational tasks** and controls the flow of data and instructions.
+- **Typical Use Cases**:
+  - **Personal computers (PCs)**
+  - **Servers**
+  - **Mainframes**
+  - **High-performance computing**
+- **Key Features**:
+  - **Single chip** (often in a **CPU**)
+  - **Can be used",2,2,2,
+9,Embedded systems,Urdu script,مائیکروکنٹرولر اور مائیکروپروسیسر میں کیا فرق ہے؟,"مائیکروکنٹرولر (Microcontroller) اور مائیکروپروسیسر (Microprocessor) کے درمیان فرق یہ ہے کہ:
+
+---
+
+### **1. مائیکروکنٹرولر (Microcontroller):**
+
+- **تعریف:** مائیکروکنٹرولر یک **سیسکوئنٹل میکروکنٹرولر** ہے جو **کم ارکان کے ساتھ** کام کرتا ہے۔
+- **کام کرنے والی اشیاء:** اس کے ساتھ **ک",1,2,2,Vague hardware details
+9,Embedded systems,Code-switched,Embedded systems mein microcontroller aur microprocessor ka main difference kya hai?,"In embedded systems, **microcontroller** and **microprocessor** are both types of **microprocessors**, but they differ in their design, purpose, and application. Here's a clear comparison:
+
+---
+
+### ✅ **Microprocessor**
+- **Definition**: A **single-chip microprocessor** that contains all the components needed to execute instructions and perform computations.
+- **Key Features**:
+  - **Single-chip**: Contains the CPU, memory, and I/O interfaces.
+  - **Designed for general-purpose computing**.
+  - **Used in devices like PCs, laptops, and servers**.
+  - **Can be upgraded or replaced** (e.g., upgrading a PC to a server).
+- **Examples**:
+  - Intel x86 (e.g., Core i7,",2,2,2,
+10,Model reliability,English,What should an AI model do when it does not know the answer?,"When an AI model does not know the answer to a question, it should follow a structured approach to handle the situation effectively. Here's a comprehensive guide on what the AI should do:
+
+---
+
+### **1. Acknowledge the Limitation**
+- **Be transparent**: The AI should clearly state that it does not have the knowledge or information to answer the question.
+- **Avoid overpromising**: Do not claim to have knowledge in areas outside its training data or capabilities.
+
+---
+
+### **2. Provide a Clear Response**
+- **State the limitation**: ""I don't have the knowledge to answer this question.""
+- **Offer alternative help**: Suggest that the user ask a different question or provide more context.
+- **Use a polite tone**: Maintain a helpful and respectful demeanor.
+
+---
+
+### **3",1,2,2,Vague uncertainty strategy
+10,Model reliability,Roman Urdu,Jab AI model ko jawab nahi pata ho to usay kya karna chahiye?,"Jab AI model ko jawab nahi pata ho to **kya karna chahiye**? Jis wala kisi bhi kuch bhi karna chahiye, jis wala kisi bhi kuch bhi karna chahiye, jis wala kisi bhi kuch bhi karna chahiye, jis wala kisi bhi kuch bhi karna chahiye, jis wala kisi bhi kuch bhi karna chahiye, jis wala kisi bhi kuch bhi karna chahiye, jis wala kisi bhi kuch bhi karna chahiye, jis wala kisi bhi kuch b",0,0,0,"Repetitive, incoherent response; failed to answer the question"
+10,Model reliability,Urdu script,جب اے آئی ماڈل کو جواب معلوم نہ ہو تو اسے کیا کرنا چاہیے؟,"اگر چاہیے کہ **""جب اے آئی ماڈل کو جواب معلوم نہ ہو تو اسے کیا کرنا چاہیے؟""** اس سوال کا جواب دیں گا، تو میں اس کے بارے میں چند ملاحظہ کریں گا:
+
+---
+
+### 🔍 **""جب اے آئی ماڈل کو جواب معلوم نہ ہو تو اسے کیا کرنا چاہیے؟""**
+
+اے آئی ماڈل (AeI Model) یا **""A",1,2,2,Vague uncertainty strategy
+10,Model reliability,Code-switched,"Agar AI model uncertain ho, to usay confidently guess karna chahiye ya uncertainty batani chahiye?","The question is a bit ambiguous, but I'll break it down and provide a clear answer:
+
+---
+
+### ✅ **If the AI model is uncertain, should it confidently guess or should it express uncertainty?**
+
+#### 1. **If the AI model is uncertain:**
+- **It should not confidently guess**.
+- **It should express uncertainty**.
+
+---
+
+### 🧠 Why?
+
+- **Confidence in AI predictions is risky**. If the model is uncertain, making a confident guess can lead to **misleading or incorrect conclusions**.
+- **Transparency and honesty** are important in AI systems, especially in critical applications like healthcare, finance, or autonomous systems.
+- **Ethical and responsible AI** requires that models **acknowledge their limitations** and **not overstate their",2,2,2,

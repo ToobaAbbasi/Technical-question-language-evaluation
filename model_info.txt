@@ -1,0 +1,19 @@
+Experiment: Multilingual Technical Reasoning Pilot
+Model: Qwen/Qwen3-1.7B
+Model source: https://huggingface.co/Qwen/Qwen3-1.7B
+Evaluation environment: Google Colab
+Hardware: NVIDIA Tesla T4
+Transformers version: 4.51.3
+Underlying questions: 10
+Language forms: English, Roman Urdu, Urdu script, Code-switched
+Prompts: 40
+
+Scoring:
+Human-reviewed scores from 0 to 2 for correctness,
+meaning preservation, and uncertainty handling.
+
+Limitations:
+This is a small exploratory pilot. Translation equivalence,
+question selection, subjective scoring, and sampling uncertainty
+limit generalization. Results should not be interpreted as a
+general ranking of model performance across languages.

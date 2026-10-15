@@ -1,0 +1,5 @@
+language_form,mean_correctness,mean_meaning_preserved,mean_uncertainty_handled,responses_scored
+Code-switched,1.8,2.0,2.0,10
+English,1.8,2.0,2.0,10
+Roman Urdu,1.4,1.6,1.8,10
+Urdu script,1.5,2.0,2.0,10

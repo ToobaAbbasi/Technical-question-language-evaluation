@@ -1,0 +1,41 @@
+question_id,topic,language_form,question
+1,Signal processing,English,What does a low-pass filter do to a signal?
+1,Signal processing,Roman Urdu,Low-pass filter signal ke sath kya karta hai?
+1,Signal processing,Urdu script,لو پاس فلٹر سگنل کے ساتھ کیا کرتا ہے؟
+1,Signal processing,Code-switched,Signal processing mein low-pass filter kya karta hai?
+2,Machine learning,English,What is the difference between classification and regression?
+2,Machine learning,Roman Urdu,Classification aur regression mein kya farq hai?
+2,Machine learning,Urdu script,کلاسیفیکیشن اور ریگریشن میں کیا فرق ہے؟
+2,Machine learning,Code-switched,Machine learning mein classification aur regression ka difference kya hai?
+3,Wireless communication,English,Why does a wireless signal become weaker as distance increases?
+3,Wireless communication,Roman Urdu,Distance barhne par wireless signal weak kyun hota hai?
+3,Wireless communication,Urdu script,فاصلہ بڑھنے پر وائرلیس سگنل کمزور کیوں ہوتا ہے؟
+3,Wireless communication,Code-switched,Wireless communication mein distance increase ho to signal strength kyun decrease hoti hai?
+4,Radar,English,How can radar detect the motion of an object?
+4,Radar,Roman Urdu,Radar kisi object ki movement kaise detect karta hai?
+4,Radar,Urdu script,ریڈار کسی چیز کی حرکت کیسے معلوم کرتا ہے؟
+4,Radar,Code-switched,Radar kisi moving object ki motion detect kaise karta hai?
+5,Data science,English,Why should a dataset be split into training and test sets?
+5,Data science,Roman Urdu,Dataset ko training aur test sets mein kyun divide karte hain?
+5,Data science,Urdu script,ڈیٹاسیٹ کو ٹریننگ اور ٹیسٹ سیٹس میں کیوں تقسیم کرتے ہیں؟
+5,Data science,Code-switched,Machine learning dataset ko training aur testing sets mein split kyun karna chahiye?
+6,Electronics,English,What is the purpose of a resistor in a simple circuit?
+6,Electronics,Roman Urdu,Simple circuit mein resistor ka kya kaam hota hai?
+6,Electronics,Urdu script,سادہ سرکٹ میں ریزسٹر کا کیا کام ہوتا ہے؟
+6,Electronics,Code-switched,"Circuit mein resistor ka role kya hai, aur current par iska kya effect hota hai?"
+7,AI evaluation,English,Why can high accuracy be misleading when classes are imbalanced?
+7,AI evaluation,Roman Urdu,Imbalanced classes mein high accuracy misleading kyun ho sakti hai?
+7,AI evaluation,Urdu script,غیر متوازن کلاسز میں زیادہ ایکیوریسی گمراہ کن کیوں ہو سکتی ہے؟
+7,AI evaluation,Code-switched,Imbalanced dataset mein high accuracy model ki performance ko misleading kyun bana sakti hai?
+8,Wireless sensing,English,What is multipath propagation in wireless communication?
+8,Wireless sensing,Roman Urdu,Wireless communication mein multipath propagation kya hoti hai?
+8,Wireless sensing,Urdu script,وائرلیس کمیونیکیشن میں ملٹی پاتھ پروپیگیشن کیا ہے؟
+8,Wireless sensing,Code-switched,Wireless channel mein multipath propagation ka kya matlab hai?
+9,Embedded systems,English,What is the difference between a microcontroller and a microprocessor?
+9,Embedded systems,Roman Urdu,Microcontroller aur microprocessor mein kya farq hai?
+9,Embedded systems,Urdu script,مائیکروکنٹرولر اور مائیکروپروسیسر میں کیا فرق ہے؟
+9,Embedded systems,Code-switched,Embedded systems mein microcontroller aur microprocessor ka main difference kya hai?
+10,Model reliability,English,What should an AI model do when it does not know the answer?
+10,Model reliability,Roman Urdu,Jab AI model ko jawab nahi pata ho to usay kya karna chahiye?
+10,Model reliability,Urdu script,جب اے آئی ماڈل کو جواب معلوم نہ ہو تو اسے کیا کرنا چاہیے؟
+10,Model reliability,Code-switched,"Agar AI model uncertain ho, to usay confidently guess karna chahiye ya uncertainty batani chahiye?"
